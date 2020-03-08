@@ -3,7 +3,8 @@
 <ModMetaData>
 	<name>LBE's A Dog Said Easy Patcher</name>
 	<author>LachlanEaston</author>
-	<supportedVersions><li>1.0</li></supportedVersions>
+	<supportedVersions><li>1.0</li><li>1.1</li></supportedVersions>
+	<packageId>lbeaston.ADogSaidEasyPatcher</packageId>
 	<description>
 Normal users need only load this mod after A Dog Said (Regular, Lite, Or No Crafting)
 
@@ -34,5 +35,6 @@ Available body types: Legs, Arms, ArmsTail, LegsArms, LegsTail, Tail, LegsArmsTa
 Should be compatible with Regular, Lite, and No Crafting versions of A Dog Said.
 Should work with animals with vanilla body types. May work with custom bodies as long as they have all the standard organs.
 If you run into any bugs or have any issues message me on twitter LBEaston and I'll try to fix it as quick as possible. -You can also post a comment but I only get around to reading them rarely
+Source code is available at https://github.com/LakeByTheWoods/ADogSaidEasyPatcher
 	</description>
 </ModMetaData>
