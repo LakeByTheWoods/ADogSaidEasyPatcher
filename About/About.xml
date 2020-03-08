@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>LBE's A Dog Said Easy Patcher</name>
+	<author>LachlanEaston</author>
+	<supportedVersions><li>1.0</li></supportedVersions>
+	<description>
+Normal users need only load this mod after A Dog Said (Regular, Lite, Or No Crafting)
+
+This mod adds an easy non-invasive way to add A Dog Said compatibility to animal mods.
+It negates the need to have a seperate patch mod for every animal which stops ADS patches overriding each other.
+It won't break games for users without this mod.
+
+For animal modders:
+To make your animal ADS compatible just give your animal's ThingDef the attribute "ADogSaidBody" with the appropriate body type.
+For example:
+	&lt;ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail"&gt;
+	&lt;defName&gt;Wombat&lt;/defName&gt; etc. etc. etc....
+
+If a user has A Dog Said and A Dog Said Easy Patcher then that animal will automatically become A Dog Said compatible!
+But what if a user doesn't have the easy patcher installed? No problem! Unused XML attributes won't change anything. The animal will still work perfectly (they just won't be able to install peg legs on it)
+
+Available body types: Legs, Arms, ArmsTail, LegsArms, LegsTail, Tail, LegsArmsTail, Limbless
+
+	Legs = Just has Legs. Things like bears
+	Arms = Horrifying creatures that only have arms.
+	ArmsTail = Ditto
+	LegsArms = Basically humanoid
+	LegsTail = Standard quadrupeds like cats and dogs
+	Tail = Snake like
+	LegsArmsTail = Monkeys I guess?
+	Limbless = I don't know what you're making but it sounds terrifying
+
+Should be compatible with Regular, Lite, and No Crafting versions of A Dog Said.
+Should work with animals with vanilla body types. May work with custom bodies as long as they have all the standard organs.
+If you run into any bugs or have any issues message me on twitter LBEaston and I'll try to fix it as quick as possible. -You can also post a comment but I only get around to reading them rarely
+	</description>
+</ModMetaData>
